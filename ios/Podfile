@@ -1,0 +1,12 @@
+# Podfile for cocoapods 1.0
+source 'https://github.com/CocoaPods/Specs.git'
+target 'yourAppTarget' do
+  pod 'React', :path => '../node_modules/react-native', :subspecs => [
+    'Core',
+    'RCTImage',
+    'RCTNetwork',
+    'RCTText',
+    'RCTWebSocket'
+  ]
+  pod 'react-native-braintree', :path => '../node_modules/react-native-braintree'
+end
