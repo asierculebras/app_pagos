@@ -1,0 +1,10 @@
+rootProject.name = 'app_qr'
+include ':react-native-vibration'
+project(':react-native-vibration').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vibration/android')
+include ':react-native-braintree-xplat'
+project(':react-native-braintree-xplat').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-braintree-xplat/android')
+include ':react-native-camera'
+include ':react-native-braintree'
+project(':react-native-camera').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-camera/android')
+project(':react-native-braintree').projectDir = new File(settingsDir, '../node_modules/react-native-braintree-android')
+include ':app'
