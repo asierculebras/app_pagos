@@ -3,9 +3,9 @@ import { StyleSheet,Alert, FlatList,Image, ActivityIndicator, ListView, Text, Vi
 
 import { StackNavigator } from 'react-navigation';
 
-import Braintree from 'react-native-braintree';
+//import Braintree from 'react-native-braintree';
 
-//import Braintree from 'react-native-braintree-xplat';
+import Braintree from 'react-native-braintree-xplat';
 
 import QRCodeScanner from 'react-native-qrcode-scanner';
 
